@@ -1,9 +1,25 @@
 body {
+    margin: 0;
+}
+
+.hero {
+    position: relative;
+    min-height: 100vh;
     background-image: url("img/faded-office.png");
     background-size: cover;
+    background-position: center;
+}
+
+.fade {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 0, 0));
 }
 
 .container {
+    font-family: Open Sans;
+    position: relative;
+    z-index: 1;
     padding: 50px;
     width: 190px;
     text-align: left;
