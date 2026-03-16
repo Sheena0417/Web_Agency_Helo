@@ -7,7 +7,6 @@ body {
     min-height: 100vh;
     background-image: url("img/faded-office.png");
     background-size: cover;
-    background-position: center;
 }
 
 .fade {
@@ -17,10 +16,28 @@ body {
 }
 
 .container {
-    font-family: Open Sans;
+    font-family: "Open Sans", sans-serif;
+    font-size: 32px;
+    color: #020202;
     position: relative;
-    z-index: 1;
-    padding: 50px;
-    width: 190px;
+    padding: 80px;
+    width: 430px;
     text-align: left;
+}
+
+.underline {
+    border-bottom: 4px solid #0ea5e9;
+}
+
+.chat-button {
+    margin-top: 20px;
+    background-color: #0ea5e9;
+    font-size: 32px;
+    color: white;
+    border: none;
+    padding: 20px 40px;
+}
+
+h1 {
+    margin-top: 0;
 }
