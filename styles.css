@@ -1,4 +1,8 @@
-.container {
+body {
     background-image: url("img/faded-office.png");
     background-size: cover;
+}
+
+.container {
+    
 }
